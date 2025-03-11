@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicación de Sensores"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/stepCountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasos: 0"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#E8F5E9"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/lightValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nivel de luz: 0 lx"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#E3F2FD"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/orientationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelerómetro:\nX: 0.00 m/s²\nY: 0.00 m/s²\nZ: 0.00 m/s²\n\n¡Mueve el dispositivo para ver cambios!"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#FFF3E0"
+        android:lineSpacingExtra="8dp"/>
+
+</LinearLayout>
